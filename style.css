@@ -1,0 +1,149 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./шьп/Cwgf.gif) no-repeat;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    /* background: url(./img/sakur#2.gif); */
+}
+.header > h1{
+    text-align: center;
+    color: white;
+}
+.header > p{
+    text-align: center;
+    color: white;
+}
+.box_job{
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+    /* background-color: darkblue; */
+    border: 3px solid black;
+    border-radius: 25px;
+    background: url(./img/Ir9.gif);
+}
+.box_job > h1{
+    margin-left: 10px;
+    color: white;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box .coteniar_job{
+    width: 250px;
+    height: 100px;
+    background: url(./шьп/61LW.gif);
+    background-size: cover ;
+    margin: 20px 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.box .coteniar_job_2{
+    width: 250px;
+    height: 100px;
+    background: url(./шьп/73j6.gif) no-repeat;
+    background-size: cover;
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.box .coteniar_job_3{
+    width: 250px;
+    height: 100px;
+    background: url(./шьп/SnA.gif) no-repeat;
+    background-size: cover;
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.box .coteniar_job_4{
+    width: 250px;
+    height: 100px;
+    background: url(./шьп/C6Gq.gif) no-repeat;
+    background-size: cover;
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.boxinne{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top_1{
+    width: 100%;
+    height: 100% ;
+    background: url(./шьп/C6Gq.gif);
+}
+.top_1 > ul{
+    display: flex;
+    position: relative;
+}
+.top_1 ul li{
+    display: inline-block;
+    background-color: none;
+}
+.top_1 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    display: block;
+    width: 175px;
+}
+.top_1 a:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.top_1 ul ul{
+    display: none;
+    position: absolute
+}
+.top_1 ul li:hover > ul{
+    display: block;
+}
+.top_1 ul ul li{
+    width: 175px;
+    display: block;
+    position: relative;
+}
+.top_1 ul ul ul li{
+    position: relative;
+    left: 175px;
+    top: -60px;
+}
+.top_1 ul ul ul ul  ul li{
+    position: relative;
+    left: 175px;
+    top: -60px;
+}
